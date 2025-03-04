@@ -3,7 +3,7 @@ services:
     name: face-emotion-detection 
     env: python 
     plan: free 
-    buildCommand: "apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt" 
+    buildCommand: "pip install -r requirements.txt" 
     startCommand: "gunicorn app:app" 
     envVars: 
       - key: SECRET_KEY 
