@@ -1,0 +1,25 @@
+services: 
+  - type: web 
+    name: face-emotion-detection 
+    env: python 
+    plan: free 
+    buildCommand: "apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt" 
+    startCommand: "gunicorn app:app" 
+    envVars: 
+      - key: SECRET_KEY 
+        generateValue: true 
+      - key: DB_HOST 
+        sync: false 
+      - key: DB_USER 
+        sync: false 
+      - key: DB_PASSWORD 
+        sync: false 
+      - key: DB_NAME 
+        sync: false 
+      - key: DB_PORT 
+        sync: false 
+      - key: PYTHON_VERSION 
+        value: 3.9.0 
+databases: 
+  - name: emotion_db 
+    plan: free 

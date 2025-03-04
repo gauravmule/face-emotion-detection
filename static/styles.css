@@ -1,0 +1,193 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #333;
+    font-weight: 600;
+}
+
+nav {
+    margin: 0;
+    text-align: left;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 12px 0 0;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+main {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.box {
+    width: 100%;
+    max-width: 900px;
+    border: 1px solid #eee;
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+form {
+    padding: 10px;
+    border: 1px solid #eee;
+    background: #fafafa;
+    width: 100%;
+    max-width: 900px;
+    margin: 5px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin: 0 0 5px 0;
+    border: 1px solid #ddd;
+    background: white;
+    box-sizing: border-box;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+
+button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+.flash {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.flash.success {
+    background: #f0fff0;
+    border-color: #dff0d8;
+    color: #3c763d;
+}
+
+.flash.error {
+    background: #fff0f0;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.filter-box select.dropdown {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background: white;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 900px;
+    margin: 5px 0;
+}
+
+.chart-box {
+    width: 50%;
+    max-width: 445px;
+    border: 1px solid #eee;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.chart-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.stats-box p i,
+.filter-box label i,
+.chart-box h3 i,
+.info-box i,
+.instructions-box i {
+    margin-right: 5px;
+    color: #666;
+}
+
+.video-box {
+    width: 100%;
+    max-width: 900px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+}
+
+#video-stream {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}

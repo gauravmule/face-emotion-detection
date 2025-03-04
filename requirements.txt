@@ -1,0 +1,15 @@
+tensorflow==2.10.0 
+numpy==1.24.4 
+fer 
+opencv-python 
+matplotlib==3.7.5 
+flask 
+flask-socketio 
+psycopg2-binary 
+flask-bcrypt 
+moviepy 
+keras-preprocessing==1.1.2 
+libclang==18.1.1 
+tensorflow-io-gcs-filesystem==0.31.0 
+protobuf==3.19.6 
+gunicorn 
